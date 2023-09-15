@@ -1,0 +1,210 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+
+<link rel="stylesheet" href="css\Style.css">
+
+<div class="wrapper">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Index Page</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="dashboard.html" class="curent-page">Dashboard</a></li>
+                <li><a href="faq.html">FaQ</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<div>
+    <div class="progress-bar">
+        <label for="file">NBSA progress:</label>
+        <progress id="file" value="30" max="60"></progress>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Quartile</th>
+                <th>Course</th>
+                <th>Exam</th>
+                <th>Credits</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3" class="collumn">Quartile 1</td>
+                <td>Program- & Career Orientation</td>
+                <td class="collumn">Assessment website </td>
+                <td>2.5 </td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td>Computer Science Basics</td>
+                <td class="collumn">Written exam</td>
+                <td>5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td> Programming Basics</td>
+                <td class="collumn">Case test (written knowledge test)</td>
+                <td>5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="collumn">Quartile 2</td>
+                <td rowspan="2">Object-Oriented Programming</td>
+                <td class="collumn">Presentation (individual)</td>
+                <td>5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td class="collumn">Written knowledge test</td>
+                <td>5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5" class="collumn">Quartile 3</td>
+                <td rowspan="5">Framework project 1</td>
+                <td class="collumn"> Written knowledge test</td>
+                <td>5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td class="collumn">Written knowledge test</td>
+                <td>2.5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td class="collumn">Written knowledge test</td>
+                <td>1.25</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td class="collumn">Assignment (group)</td>
+                <td>2.5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+
+            </tr>
+            <tr>
+                <td class="collumn">Assignment (individual)</td>
+                <td>1.25</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="collumn">Quartile 4</td>
+                <td rowspan="3">Framework project 2</td>
+                <td class="collumn">Portfolio</td>
+                <td>2.5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td class="collumn">Portfolio</td>
+                <td>2.5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td class="collumn">Portfolio</td>
+                <td>5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="6" class="collumn">Multiple quartiles</td>
+                <td>Business IT Consultancy basics</td>
+                <td class="collumn">Assignment (individual)</td>
+                <td>2.5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td>Personal Professional Development Exploration</td>
+                <td class="collumn">Criterion-referenced assessment</td>
+                <td>12.5</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td>IT Personality- projectweek 1</td>
+                <td class="collumn">Portofolio</td>
+                <td>1.25</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td>IT Personality International week</td>
+                <td class="collumn">Portofolio</td>
+                <td>1.25</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td>IT Personality 1</td>
+                <td class="collumn">Portofolio</td>
+                <td>1.25</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+            <tr>
+                <td>IT Personality 2</td>
+                <td class="collumn">Portofolio</td>
+                <td>1.25</td>
+                <td class="collumn">
+                    <input type="number" min="1" max="10" step="0.1" />
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+<footer>
+    <ul>
+        <li>
+            <a href="https://learn.hz.nl/my/" class="aside-link" target="_blank">Learn</a>
+        </li>
+        <li>
+            <a href="https://portal.hz.nl/en/" class="aside-link" target="_blank">MyHz</a>
+        </li>
+        <li>
+            <a href="https://hz.osiris-student.nl/#/home" class="aside-link" target="_blank">Osiris</a>
+        </li>
+        <li>
+            <a href="https://moisilbrasov.ro/" class="aside-link" target="_blank">CNIGM Brașov</a>
+        </li>
+    </ul>
+</footer>
+</body>
